@@ -4,6 +4,7 @@ import kartak.Heroia;
 import kartak.Karta;
 import kartak.ListaKartak;
 
+//viva er beti
 public class Jokalaria 
 {
 	//atributoak

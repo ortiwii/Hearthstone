@@ -1,6 +1,6 @@
 package kartak;
 
- class Heroia  
+public class Heroia  
 {
 	//atributoak
 	private int bizitza;
@@ -11,7 +11,6 @@ package kartak;
 		this.bizitza = 30;
 		// TODO
 	}
-	// Aldaketa
 	
 	//gainontzeko metodoak
 	public int getBizitza()
@@ -28,5 +27,5 @@ package kartak;
 		boolean emaitza = false;
 		return emaitza;
 	}
-	// Eskere modo diablo.
+	
 }
