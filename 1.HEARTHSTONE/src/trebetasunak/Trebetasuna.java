@@ -20,3 +20,5 @@ public abstract class Trebetasuna
 	}
 	public abstract void erabiliTrebetasuna();
 }
+
+// a ver si va xdd
