@@ -1,6 +1,6 @@
 package kartak;
 
-public class Heroia  
+ class Heroia  
 {
 	//atributoak
 	private int bizitza;
@@ -27,5 +27,5 @@ public class Heroia
 		boolean emaitza = false;
 		return emaitza;
 	}
-	
+	// Eskere modo diablo.
 }
