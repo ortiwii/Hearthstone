@@ -12,6 +12,9 @@ public class Heroia
 		// TODO
 	}
 	
+	
+	
+	
 	//gainontzeko metodoak
 	public int getBizitza()
 	{
