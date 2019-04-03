@@ -11,6 +11,7 @@ public class Heroia
 		this.bizitza = 30;
 		// TODO
 	}
+	//skere
 	//gainontzeko metodoak
 	public int getBizitza()
 	{
