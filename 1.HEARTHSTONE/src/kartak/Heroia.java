@@ -11,6 +11,7 @@ package kartak;
 		this.bizitza = 30;
 		// TODO
 	}
+	// Aldaketa
 	
 	//gainontzeko metodoak
 	public int getBizitza()
