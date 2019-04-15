@@ -55,7 +55,7 @@ public class Morroia extends Karta
 	public void inprimatu()
 	{
 		System.out.println(this.erasoa);
-		System.out.println(this.bizitza);
+		System.out.println(this.bizitza);// esto hay que ponerlo bien
 		
 	}
 }
