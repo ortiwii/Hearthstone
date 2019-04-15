@@ -2,7 +2,7 @@ package kartak;
 
 import trebetasunak.Trebetasuna;
 
-public abstract class Morroia extends Karta 
+public class Morroia extends Karta 
 {
 	//atributoak
 	private int erasoa;
@@ -50,5 +50,12 @@ public abstract class Morroia extends Karta
 			this.erasoAhalDu = true;
 		}
 		return this.erasoAhalDu;
+	}
+	
+	public void inprimatu()
+	{
+		System.out.println(this.erasoa);
+		System.out.println(this.bizitza);
+		
 	}
 }

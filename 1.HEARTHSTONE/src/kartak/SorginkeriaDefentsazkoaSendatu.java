@@ -25,7 +25,7 @@ public class SorginkeriaDefentsazkoaSendatu extends SorginkeriaDefentsazkoa
 	{
 		//TODO
 	}
-	public void imprimatu()
+	public void inprimatu()
 	{
 		//TODO
 	}

@@ -29,5 +29,5 @@ public abstract class Karta
 		}
 		return false; // Si no es el mismo id no entra en el if y te devuelve el False.
 	}
-	public abstract void imprimatu();
+	public abstract void inprimatu();
 }

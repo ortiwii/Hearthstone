@@ -14,4 +14,9 @@ public abstract class SorginkeriaDefentsazkoa extends Sorginkeria
 		//TODO
 	}
 	public abstract void emanDefentsa (Karta pKarta);
+	
+	public void inprimatu()
+	{
+		//TODO
+	}
 }
