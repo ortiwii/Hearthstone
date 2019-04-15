@@ -12,7 +12,10 @@ public abstract class Karta
 	//eraikitzailea
 	public Karta(int pIdKarta, String pIzena, String pDeskribapena, int pBalioa) 
 	{
-		//TODO
+		this.idKarta = pIdKarta;
+		this.izena = pIzena;
+		this.deskribapena = pDeskribapena;
+		this.balioa = pBalioa;
 	}
 	
 	//gainontzeko metodoak	
@@ -20,11 +23,11 @@ public abstract class Karta
 	
 	public boolean idHauDu(int pId)
 	{
-		boolean emaitza = false;
-		return emaitza;
+		if (this.idKarta == pId)
+		{
+			return true; // Si tienen el mismo id te devuelve True.
+		}
+		return false; // Si no es el mismo id no entra en el if y te devuelve el False.
 	}
-	public void imprimatu()
-	{
-		//TODO
-	}
+	public abstract void imprimatu();
 }

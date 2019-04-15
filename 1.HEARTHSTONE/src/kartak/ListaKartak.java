@@ -12,16 +12,15 @@ public class ListaKartak
 	//eraikitzailea
 	public ListaKartak () 
 	{
-		//TODO
+		this.lista = new ArrayList<Karta>(); 
 	}
 	
 	//gainontzeko metodoak	
 	private Iterator<Karta> getIteradorea()
 	{
-		//TODO
 		return lista.iterator();
 	}
-	public void barajatu ()
+	public void barajatu()
 	{
 		//TODO
 	}
@@ -31,10 +30,10 @@ public class ListaKartak
 		Karta karta=null;
 		return karta;
 	}
-//	public ArrayList<Karta> getLista()
-//	{
-//		return this.lista;
-//	}
+	public ArrayList<Karta> getLista()
+	{
+		return this.lista;
+	}
 	public void gehituKarta(Karta pKarta) {
 		//TODO
 	}
