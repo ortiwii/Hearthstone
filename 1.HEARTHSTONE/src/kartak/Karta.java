@@ -29,9 +29,5 @@ public abstract class Karta
 		}
 		return false; // Si no es el mismo id no entra en el if y te devuelve el False.
 	}
-	public void imprimatu()
-	{
-		this.imprimatu(); 
-		/* En las cartas hijas tiene que imprimir el ataque y la defensa, no creo que haga falta imprimir la descripción ni nada.*/
-	}
+	public abstract void imprimatu();
 }

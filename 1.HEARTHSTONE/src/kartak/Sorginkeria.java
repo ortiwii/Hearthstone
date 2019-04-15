@@ -18,4 +18,8 @@ public abstract class Sorginkeria extends Karta
 		boolean emaitza = false;
 		return emaitza;
 	}
+	public void inprimatu()
+	{
+		//TODO
+	}
 }

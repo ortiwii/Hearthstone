@@ -25,4 +25,8 @@ public class SorginkeriaErasokoa extends Sorginkeria
 	{
 		//TODO
 	}
+	public void inprimatu()
+	{
+		//TODO
+	}
 }
