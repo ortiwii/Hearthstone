@@ -25,7 +25,7 @@ public abstract class Karta
 	{
 		if (this.idKarta == pId)
 		{
-			return true; // Si tienen el mismo id te devuelve True
+			return true; // Si tienen el mismo id te devuelve True.
 		}
 		return false; // Si no es el mismo id no entra en el if y te devuelve el False.
 	}
