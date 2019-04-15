@@ -15,11 +15,11 @@ public abstract class Sorginkeria extends Karta
 	public abstract void egikarituSorginkeria();
 	public boolean edonoriErasoDiezaioke (ListaKartak pLista)
 	{
-		boolean emaitza = false;
+		boolean emaitza = false; 
 		return emaitza;
 	}
 	public void inprimatu()
 	{
-		//TODO
+		//TODO tutu
 	}
 }
