@@ -12,13 +12,12 @@ public class ListaKartak
 	//eraikitzailea
 	public ListaKartak () 
 	{
-		//TODO
+		this.lista = new ArrayList<Karta>();
 	}
 	
 	//gainontzeko metodoak	
 	private Iterator<Karta> getIteradorea()
 	{
-		//TODO
 		return lista.iterator();
 	}
 	public void barajatu ()
