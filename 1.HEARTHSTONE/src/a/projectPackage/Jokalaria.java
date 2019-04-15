@@ -43,7 +43,7 @@ public class Jokalaria
 	}
 	public void lapurtu () 
 	{
-		this.lapurtzekoKartak.getKarta();
+		this.lapurtzekoKartak.getKarta(); // Asi e asi e
 	}
 	public Karta aukeratuKarta() 
 	{
