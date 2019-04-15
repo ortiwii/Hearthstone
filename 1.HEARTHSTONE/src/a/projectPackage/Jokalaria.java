@@ -65,6 +65,7 @@ public class Jokalaria
 	{
 		//TODO
 		//Baldin sorginkeria bat bada, jokatuKarta()
+		this.eskukoKartak.
 	}
 	private boolean aukeratuAhalDu()
 	{
