@@ -44,7 +44,7 @@ public class Jokalaria
 	public void lapurtu () 
 	{
 		this.eskukoKartak.
-	}
+	}//KK
 	public Karta aukeratuKarta() 
 	{
 		//TODO
