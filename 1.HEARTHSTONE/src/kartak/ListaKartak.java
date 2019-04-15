@@ -42,6 +42,7 @@ public class ListaKartak
 		//TODO
 	}
 	
+	
 	public void jokatuKarta(Karta pKarta) {
 		//TODO
 	}
@@ -60,5 +61,13 @@ public class ListaKartak
 	}
 	public void inprimatuLista() {
 		//TODO
+	}
+	
+	public Karta getKarta()
+	{
+		Iterator<Karta>itr = this.getIteradorea();
+		Karta k;
+		k = itr.next();
+		return k; // Esto es par el metodo partida que hay un lapurtuKarta()
 	}
 }

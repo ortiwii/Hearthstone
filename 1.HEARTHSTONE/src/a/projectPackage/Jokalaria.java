@@ -41,9 +41,9 @@ public class Jokalaria
 	{
 		//TODO
 	}
-	public void lapurtu (ListaKartak baraja) 
+	public void lapurtu () 
 	{
-		//TODO
+		this.lapurtzekoKartak.getKarta();
 	}
 	public Karta aukeratuKarta() 
 	{
