@@ -1,5 +1,6 @@
 package a.projectPackage;
 
+import kartak.Heroia;
 import kartak.ListaKartak;
 
 public class Partida 
@@ -56,5 +57,20 @@ public class Partida
 	public void inprimatuPartida() 
 	{
 		//TODO
+	}
+		//getters
+	public Heroia getHeroiEtsaia ()
+	{
+		//como la unekotxanda si es bikoti (%2=0) es el jugador 1, y si no el jugador 2, 
+		// si unekotxanda es bikoti devolvemos el heroe del jugador 2, y si no del 1, es decir,
+		// hacemos lo contrario
+		if (this.unekoTxanda % 2 != 0)
+		{
+			return this.listaJokalariak[1].getHeroia();
+		}
+		else
+		{
+			return this.listaJokalariak[2].getHeroia();
+		}
 	}
 }

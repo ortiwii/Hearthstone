@@ -94,4 +94,9 @@ public class Jokalaria
 		boolean emaitza = false;
 		return emaitza;
 	}
+		//getters
+		public Heroia getHeroia ()
+		{
+			return this.heroia;
+		}
 }

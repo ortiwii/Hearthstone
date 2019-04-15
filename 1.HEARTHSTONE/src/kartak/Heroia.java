@@ -1,5 +1,7 @@
 package kartak;
 
+import a.projectPackage.Partida;
+
 public class Heroia  
 {
 	//atributoak
@@ -9,23 +11,28 @@ public class Heroia
 	public Heroia() 
 	{
 		this.bizitza = 30;
-		// TODO
 	}
-	//skere
+	
 	//gainontzeko metodoak
 	public int getBizitza()
 	{
 		return this.bizitza;
 	}
+	public void erasoEgin ()
+	{
+		Partida.getNirePartida().getHeroiEtsaia().puntoBatKendu();
+	}
 	public void puntoBatKendu ()
 	{
-		//TODO
+		this.bizitza = this.bizitza - 1 ;
 	}
-	public boolean bizirikDago()
+	public boolean bizirikDago ()
 	{
-		//TODO
-		boolean emaitza = false;
+		boolean emaitza = true;
+		if (this.bizitza <= 0)
+		{
+			emaitza = false;
+		}
 		return emaitza;
 	}
-	
 }
