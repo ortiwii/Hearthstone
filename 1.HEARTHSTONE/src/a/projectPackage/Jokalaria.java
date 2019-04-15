@@ -37,13 +37,13 @@ public class Jokalaria
 	{
 		//TODO
 	}
-	public void jokatuTxanda(ListaKartak listaEtsaia) 
+	public void jokatuTxanda(ListaKartak pListaEtsaia) 
 	{
 		//TODO
 	}
-	public void lapurtu (ListaKartak baraja) 
+	public void lapurtu () 
 	{
-		//TODO
+		this.eskukoKartak.
 	}
 	public Karta aukeratuKarta() 
 	{
@@ -69,6 +69,9 @@ public class Jokalaria
 	private boolean aukeratuAhalDu()
 	{
 		//gemekin aukeratu ahal duen adierazi
+		ListaKartak lista = new ListaKartak();
+		Iterator<Karta> itr= this.eskukoKartak.//no va el punto
+		while()
 		boolean emaitza = false;
 		return emaitza;
 	}
