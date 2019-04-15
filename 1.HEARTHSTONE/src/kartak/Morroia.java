@@ -27,6 +27,11 @@ public abstract class Morroia extends Karta
 	{
 		return this.bizitza;
 	}
+	
+	public int getErasoa()
+	{
+		return this.erasoa;
+	}
 	public void jokatuKarta() 
 	{
 		//TODO

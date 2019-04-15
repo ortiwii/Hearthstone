@@ -12,7 +12,7 @@ public class ListaKartak
 	//eraikitzailea
 	public ListaKartak () 
 	{
-		this.lista = new ArrayList<Karta>();
+		this.lista = new ArrayList<Karta>(); 
 	}
 	
 	//gainontzeko metodoak	
@@ -20,7 +20,7 @@ public class ListaKartak
 	{
 		return lista.iterator();
 	}
-	public void barajatu ()
+	public void barajatu()
 	{
 		//TODO
 	}
@@ -30,10 +30,10 @@ public class ListaKartak
 		Karta karta=null;
 		return karta;
 	}
-//	public ArrayList<Karta> getLista()
-//	{
-//		return this.lista;
-//	}
+	public ArrayList<Karta> getLista()
+	{
+		return this.lista;
+	}
 	public void gehituKarta(Karta pKarta) {
 		//TODO
 	}
