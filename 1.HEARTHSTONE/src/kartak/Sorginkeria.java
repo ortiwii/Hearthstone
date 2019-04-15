@@ -20,6 +20,6 @@ public abstract class Sorginkeria extends Karta
 	}
 	public void inprimatu()
 	{
-		//TODO tutu
+		//TODO eskere
 	}
 }
